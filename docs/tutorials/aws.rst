@@ -182,7 +182,7 @@ server:
 
 .. code-block:: bash
 
-   $ terracotta serve s3://tc-data/tc.sqlite
+   $ terracotta serve -d s3://tc-data/tc.sqlite
    $ terracotta connect localhost:5000
 
 
